@@ -1,5 +1,4 @@
-import { Component, OnInit  } from '@angular/core';
-import { IonicModule } from '@ionic/angular';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -7,12 +6,10 @@ import { IonicModule } from '@ionic/angular';
   styleUrls: ['./home.page.scss'],
 })
 export class HomePage implements OnInit {
-  
-  constructor(
-  ) { }
+
+  constructor() { }
 
   ngOnInit() {
-    
   }
 
 }

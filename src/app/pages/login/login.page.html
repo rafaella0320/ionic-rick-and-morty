@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="new-background-color">
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <h1 class="ion-text-center">Login</h1>
+    <form>
+      <label for="email">Email</label>
+      <input type="email" name="email" placeholder="Informe seu email" />
+
+      <label for="password">Senha</label>
+      <input type="password" name="password" placeholder="Digite sua senha" />
+
+      <a href="/registro">Não possui conta? Cadastre-se</a>
+
+      <button type="submit" class="button">Entrar</button>
+    </form>
+  </div>
+</ion-content>

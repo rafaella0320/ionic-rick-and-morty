@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "rickandmortyapp-73337": {
+      "hosting": {
+        "app": [
+          "rickandmortyapp-73337"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "rickandmortyapp-73337"
+  }
+}

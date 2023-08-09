@@ -10,6 +10,8 @@ export class AppComponent {
     { title: 'Sobre', url: '/sobre', icon: 'information' },
     { title: 'Contato', url: '/contato', icon: 'chatbox' },
     { title: 'Políticas do App', url: '/politicas', icon: 'alert' },
+    { title: 'Login', url: '/login', icon: 'person' },
+    { title: 'Registro', url: '/registro', icon: 'person' },
   ];
-  constructor() { }
+  constructor() {}
 }

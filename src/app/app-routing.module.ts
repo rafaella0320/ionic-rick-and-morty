@@ -37,6 +37,16 @@ const routes: Routes = [
     loadChildren: () => import('./pages/politicas/politicas.module').then( m => m.PoliticasPageModule)
   },
   {
+    path: 'login',
+    title: 'Login - Rick and Morty',
+    loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'registro',
+    title: 'Registro - Rick and Morty',
+    loadChildren: () => import('./pages/registro/registro.module').then( m => m.RegistroPageModule)
+  },
+  {
     path: '**',
     redirectTo: '404',
     pathMatch: 'full'
